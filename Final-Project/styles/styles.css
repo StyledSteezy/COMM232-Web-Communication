@@ -1,0 +1,179 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+ul { 
+  display:table;
+  margin:0 auto;
+  list-style-type:disc;
+  text-align: left;
+}
+
+body {
+    background-color: #fffafa;
+    color: black;
+    font-size: 16.5px;
+    font-family: arial;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-weight: normal;
+  font-size: 40px;
+  border-bottom: 1px solid #2980B9;
+  margin-top: 1px;
+  font-family: fantasy;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-weight: normal;
+  font-size: 32px;
+  font-family: fantasy;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  font-weight: normal;
+  font-size: 26px;
+  font-family: Georgia;
+}
+
+h4 {
+  color: black;
+  font-weight: normal;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 34em;
+  font-family: "Bookman Old Style";
+}
+
+.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 45.5em
+}
+
+.a {
+  font-family: "Bookman Old Style";
+  line-height:1.5;
+}
+
+.b {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.c {
+  font-family: "Bookman Old Style";
+  line-height:1.5;
+  font-size: 27px
+}
+
+li {
+  font-family:courier;
+  text-align: left;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.maintxt {
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  font-size: 52px;
+  top: 250px; 
+}
+
+.subtxt {
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  font-size: 26px;
+  position: absolute; 
+  top: 350px; 
+  left: 200; 
+  width: 100%; 
+}
+
+.centertxt {
+  text-align: center;
+}
+
+.logo {
+  float: left;
+}
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  background-color: #add8e6;
+  height: 70px;
+  width: 100%;
+  text-align:center;
+}
+.navigation-bar img{
+float:left;
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  display: inline-block;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+#menu {
+  float: right;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.photo1 {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+	
+.photo2 {
+	position: absolute;
+	top: 60px;
+	left: 705px;
+}
